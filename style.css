@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: darkgray;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #language-selector {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+   #language-selector button {
+    background-color: lightgray;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  #language-selector button:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+  #game-control {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 20px 0;
+  }
+
+  #game-control h2 {
+    margin: 0 0 20px 0;
+  }
+
+  #game-control p {
+    margin: 0 0 10px 0;
+  }
+ 
+  footer{
+    margin-top: auto;
+  }
