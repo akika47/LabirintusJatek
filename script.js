@@ -15,6 +15,8 @@ const languages = {
       room: "Colocar habitación con <b>Q</b>",
       spawn: "Colocar punto de inicio con <b>E</b>",
       finish: "Colocar final o salida con <b>R</b>",
+      save: "<b>F5</b> para guardar la ubicación de la jugadora",
+      load: "<b>F6</b> para cargar la ubicación del jugador",
       info: "Información importante",
       drillinfo: "El taladro se rompe después de perforar <b>dos</b> paredes",
       exitinfo: "Puedes escapar sin encontrar la sala del tesoro, pero <b>no</b> será una verdadera victoria"
@@ -35,6 +37,8 @@ const languages = {
       room: "Szoba lerakása <b>Q</b>-val",
       spawn: "Spawnpont lerakása <b>E</b>-vel",
       finish: "Befejezés vagy kijárat lerakása <b>R</b>-el",
+      save: "<b>F5</b> a játékos helyzetének lementése",
+      load: "<b>F6</b> a visszatöltése a játékos helyzetének",
       info: "Fontos információ",
       drillinfo: "Fúróval csak <b>kettő</b> falat lehet fúrni mielőtt eltörik",
       exitinfo: "Ki lehet jutni a terem megtalálása nélkül, de <b>nem fog</b> igazi nyerésnek számítani"
@@ -55,6 +59,8 @@ const languages = {
         room: "Place down treasure rooms with <b>Q</b>",
         spawn: "Place down the spawnpoint with <b>E</b>",
         finish: "Place down the exit with <b>R</b>",
+        save: "<b>F5</b> to save the location of player",
+        load: "<b>F6</b> to load the location of player",
         info: "Important information",
         drillinfo: "The drill breaks after drilling <b>two</b> walls",
         exitinfo: "You can escape without finding the treasure room but it <b>won't</b> be a true win"
@@ -97,6 +103,8 @@ document.getElementById("spanish").addEventListener("click", function() {
       "<p>" + languages[currentLanguage].room + "</p>" +
       "<p>" + languages[currentLanguage].spawn + "</p>" +
       "<p>" + languages[currentLanguage].finish + "</p>" +
+      "<p>" + languages[currentLanguage].save + "</p>" +
+      "<p>" + languages[currentLanguage].load + "</p>" +
       "<h2>" + languages[currentLanguage].info + "</h2>" +
       "<p>" + languages[currentLanguage].drillinfo + "</p>" +
       "<p>" + languages[currentLanguage].exitinfo + "</p>";
